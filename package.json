@@ -2,6 +2,7 @@
   "name": "beans-love-beers",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pree21.github.io/React-API-App/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
