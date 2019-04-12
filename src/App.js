@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Link, Route, NavLink } from "react-router-dom"
+import { BrowserRouter as HashRouter, Link, Route, NavLink } from "react-router-dom"
 import Home from './components/Home.js';
 import Favourites from './components/Favourites.js';
 
@@ -41,7 +41,7 @@ class App extends Component {
   render() {
     return (
       <div className="beer-app">
-        <Router>
+        <HashRouter>
           <header>
             <h1 className="logo">Beans Love Beers</h1>
             <div className="menu">
@@ -66,7 +66,7 @@ class App extends Component {
               <Route exact path="/favourites" component={Favourites} />
             </div>
           </div>
-        </Router>
+        </HashRouter>
       </div>
     );
   }
