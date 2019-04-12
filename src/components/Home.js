@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Link, Route, NavLink } from "react-router-dom"
 
 class Home extends React.Component {
   constructor() {
