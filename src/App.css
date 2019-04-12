@@ -108,3 +108,19 @@ form{
   color: #5cd0b3;
   font-size: 16px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .box {
+    width: 48%;
+  }
+  .box-outer{
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .box {
+    width: 98%;
+  }
+  .box-outer{
+    padding: 10px 0;
+  }
+}
